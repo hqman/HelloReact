@@ -1,5 +1,5 @@
 'use strict'
-require('./css/style.less');
+require('./css/test.scss');
 
 
 // var React = require('react');
@@ -27,6 +27,6 @@ var divider = React.createElement(DividerClass,null,'问题');
 console.dir(divider);
 
 ReactDOM.render(
-  <DividerClass>test问题</DividerClass>,
+  <DividerClass  >test问题</DividerClass>,
   document.getElementById('app')
 );

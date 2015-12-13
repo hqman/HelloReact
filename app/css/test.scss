@@ -1,0 +1,14 @@
+@import "./config/common";
+
+.hero {
+    padding: 80px;
+    .btn{
+        width:100px;
+        height:40px;
+        &:hover{
+            background-color: lighten($acent-color,20%);
+            }
+        }
+}
+
+
