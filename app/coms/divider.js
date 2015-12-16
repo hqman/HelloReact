@@ -16,7 +16,7 @@ var DividerClass = React.createClass({
     //内部状态 初始值
     getInitialState: function() {
         return {
-            title: 'this is my state'
+            title: '初始值'
         }
     },
     updateText: function(e) {
@@ -39,8 +39,11 @@ var DividerClass = React.createClass({
         //  );
         return ( < div className="hero">
             < h2 > {
-                this.state.title
+                this.props.title
             } < /h2>
+            <p>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam dignissimos illum tempore magni itaque iste voluptas voluptates veritatis dolore, hic, dolores molestias vitae ipsum excepturi ex nostrum quas neque harum.
+            </p>
             <hr />
             <button className="btn">save</button>
             < /div>

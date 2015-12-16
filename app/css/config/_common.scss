@@ -1,9 +1,16 @@
-$primary-color: #00BCD4;
+$primary-color: #fffff;
 
-$acent-color : #009688;
+$acent-color : #B3E5FC;
+
+
+.value{
+    width:20%;
+    padding:10px;
+
+}
 
 body{
     color: $primary-color;
      font-family: 2em;
-    background-color: pink;
+    background-color:#B3E5FC;
 }

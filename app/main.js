@@ -7,7 +7,7 @@ import React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
 import DividerClass from './coms/divider.js'
-
+import EPersons from './coms/employee.js'
 
 
 // var R = React.DOM;
@@ -24,9 +24,25 @@ import DividerClass from './coms/divider.js'
 //  });
 var divider = React.createElement(DividerClass,null,'问题');
 
-console.dir(divider);
+// console.dir(divider);
+//
+ var persons=
+   [
+    {"name":"kai", "position":"设计师" },
+    {"name":"wang", "position":"开发" },
+    {"name":"wkai2", "position":"设计师" },
+    {"name":"jian", "position":"开发" },
+    {"name":"okai", "position":"开发" },
+    {"name":"jing", "position":"设计师" }
+    ]  ;
 
+// ReactDOM.render(
+//   <DividerClass title="xxx"  >test问题</DividerClass>,
+//   document.getElementById('app')
+// );
+var p1={"name":"kai", "position":"设计师" };
 ReactDOM.render(
-  <DividerClass  >test问题</DividerClass>,
+  <EPersons data={persons}></EPersons>,
   document.getElementById('app')
 );
+
